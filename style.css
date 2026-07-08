@@ -62,3 +62,35 @@ margin-bottom:35px;
 display:inline-block;
 background:#FFD700;
 color:#000;
+.card {
+    background: #ffffff;
+    border-radius: 12px;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 350px;
+    box-shadow: 0 4px 12px rgba(0,0,0,.15);
+    text-align: center;
+}
+
+.card h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.card p {
+    margin: 10px 0;
+}
+
+.card a {
+    display: inline-block;
+    background: #FFD700;
+    color: #000;
+    padding: 12px 24px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.card a:hover {
+    background: #e6c200;
+}
